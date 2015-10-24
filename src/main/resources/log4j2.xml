@@ -10,6 +10,7 @@
             <AppenderRef ref="Console" />
         </Root>
         <logger name="com.zygimantus.springconsole" level="TRACE" />
+        <logger name="org.springframework" level="INFO" />
         <Root level="ERROR">
             <AppenderRef ref="CONSOLE"/>
         </Root>
